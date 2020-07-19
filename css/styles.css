@@ -1,0 +1,94 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.wrap,
+.header {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.header__title {
+    line-height: 1em;
+}
+
+.nav__btn {
+    background: #343a40!important;
+}
+
+.footer__form {
+    line-height: 37px;
+    border-radius: 5px;
+}
+
+.footer__btn,
+.info__btn {
+    background: rgb(255, 127, 80);
+    border: 0;
+}
+
+.navbar-toggler-icon {
+    display: block;
+    background: rgb(126, 126, 126);
+    height: 2px;
+    width: 20px;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after {
+    content: "";
+    display: block;
+    position: relative;
+    background: rgb(126, 126, 126);
+    height: 2px;
+    width: 20px;
+}
+
+.navbar-toggler-icon::before {
+    bottom: 5px;
+}
+
+.navbar-toggler-icon::after {
+    top: 3px;
+}
+
+.navbar-toggler:focus {
+    outline: 0;
+}
+
+.card__img {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    .nav__item {
+        padding: 15px 0;
+        font-size: 20px;
+    }
+
+    .nav__item:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header__title {
+        font-size: 1.7rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav-item:hover,
+    .nav-item:hover .nav-link {
+        background: rgb(224, 168, 0);
+        color: #f8f9fa!important;
+        border-radius: 5px;
+    }
+
+    .nav__btn:hover,
+    .bg-dark .card:hover {
+        background: rgb(224, 168, 0)!important;
+        color: #fff;
+        cursor: pointer;
+    }
+}
