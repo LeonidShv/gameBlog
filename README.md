@@ -1,1 +1,1 @@
-# travelBlog
+https://leonidshv.github.io/gameBlog/
